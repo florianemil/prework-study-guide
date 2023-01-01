@@ -1,3 +1,5 @@
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "Hello world!";
 var topic = "HTML";
 
 if (topic === 'HTML') {
