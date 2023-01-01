@@ -1,14 +1,15 @@
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Hello world!";
-var topic = "HTML";
+var topics = "HTML,CSS,Git,Javascript";
+console.log(topics);
 
-if (topic === 'HTML') {
+if (topics === 'HTML') {
   console.log("Let's study HTML!");
-} else if (topic === 'CSS') {
+} else if (topics === 'CSS') {
   console.log("Let's study CSS!");
-} else if (topic === 'Git') {
+} else if (topics === 'Git') {
   console.log("Let's study Git!");
-} else if (topic === 'JavaScript') {
+} else if (topics === 'JavaScript') {
   console.log("Let's study JavaScript!");
 } else {
   console.log('Please try again!');
