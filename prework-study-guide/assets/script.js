@@ -1,3 +1,4 @@
+
 var topics = ['HTML', 'CSS', 'GIT', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
@@ -25,3 +26,4 @@ console.log('Here are the topics we learned through Prework: ');
 listTopics();
 console.log('Wich topic should we study first?');
 selectTopic();
+
